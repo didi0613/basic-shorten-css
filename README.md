@@ -19,13 +19,20 @@ However, to shrink the size under production env, we can renaming CSS class name
 
 # Css names
 
-![alt text][./images/dev.png]
+## development env
 
 <div style='float: center'>
   <img style='width: 100%' src="./images/dev.png"></img>
 </div
 
+## production env
+
+<div style='float: center'>
+  <img style='width: 100%' src="./images/prod.png"></img>
+</div
+
 # References
 
 [blog](https://medium.freecodecamp.org/reducing-css-bundle-size-70-by-cutting-the-class-names-and-using-scope-isolation-625440de600b)
+
 [electrode archetype changes](https://github.com/didi0613/electrode/tree/shorten-classnames-prod)
