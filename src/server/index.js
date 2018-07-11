@@ -6,6 +6,10 @@ process.on("SIGINT", () => {
   process.exit(0);
 });
 
+require.extensions[".scss"] = () => {
+  return;
+};
+
 const electrodeConfippet = require("electrode-confippet");
 const support = require("electrode-archetype-react-app/support");
 

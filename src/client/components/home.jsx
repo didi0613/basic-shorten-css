@@ -15,10 +15,10 @@
  */
 
 import React from "react";
-import "../styles/normalize.css";
-import "../styles/raleway.css";
-import skeleton from "../styles/skeleton.css";
-import custom from "../styles/custom.css";
+import "../styles/normalize.scss";
+import "../styles/raleway.scss";
+import skeleton from "../styles/skeleton.scss";
+import custom from "../styles/custom.scss";
 import electrodePng from "../images/electrode.png";
 import DemoStates from "./demo-states";
 import DemoPureStates from "./demo-pure-states";
