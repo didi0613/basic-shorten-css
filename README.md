@@ -16,3 +16,7 @@ However, to shrink the size under production env, we can renaming CSS class name
 .___1X84H.___1A5LB
 {noformat}
 ```
+
+# References
+blog: https://medium.freecodecamp.org/reducing-css-bundle-size-70-by-cutting-the-class-names-and-using-scope-isolation-625440de600b
+electrode archetype changes: https://github.com/didi0613/electrode/tree/shorten-classnames-prod
