@@ -17,7 +17,25 @@ However, to shrink the size under production env, we can renaming CSS class name
 {noformat}
 ```
 
-# Css names
+# CSS bundle sizes
+
+I would like to share the results of enabling the shorten CSS class names for CSS Module based on this app.
+
+In the production environment, css bundle size decreased from 13.2kb to 9.94kb, which is roughly 24.8% decreased.
+
+Original css bundle size:
+
+<div style='float: center'>
+  <img style='width: 100%' src="./images/size_before.png"></img>
+</div>
+
+Current css bundle size:
+
+<div style='float: center'>
+  <img style='width: 100%' src="./images/size_after.png"></img>
+</div>
+
+# CSS names
 
 ## development env
 
