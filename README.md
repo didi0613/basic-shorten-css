@@ -23,13 +23,13 @@ However, to shrink the size under production env, we can renaming CSS class name
 
 <div style='float: center'>
   <img style='width: 100%' src="./images/dev.png"></img>
-</div
+</div>
 
 ## production env
 
 <div style='float: center'>
   <img style='width: 100%' src="./images/prod.png"></img>
-</div
+</div>
 
 # References
 
