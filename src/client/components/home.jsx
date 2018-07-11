@@ -23,11 +23,14 @@ import electrodePng from "../images/electrode.png";
 import DemoStates from "./demo-states";
 import DemoPureStates from "./demo-pure-states";
 import { DemoButtons } from "./demo-buttons";
+//
 
 export default () => (
-  <div styleName={"custom.container"}>
-    <section styleName={"custom.header"}>
-      <h2>
+  <div className={"container"}>
+    {/**/}
+
+    <section className={"header"}>
+      <h2 className={"title"}>
         <span>Hello from </span>
         <a href="https://github.com/electrode-io">
           {"Electrode"}
@@ -36,15 +39,15 @@ export default () => (
       </h2>
     </section>
 
-    <div styleName={"custom.docs-section"}>
+    <div className={"docs-section"}>
       <DemoStates />
     </div>
 
-    <div styleName={"custom.docs-section"}>
+    <div className={"docs-section"}>
       <DemoPureStates />
     </div>
 
-    <div styleName={"custom.docs-section"}>
+    <div className={"docs-section"}>
       <DemoButtons />
     </div>
   </div>
