@@ -21,6 +21,10 @@ However, to shrink the size under production env, we can renaming CSS class name
 
 ![alt text][./images/dev.png]
 
+<div style='float: center'>
+  <img style='width: 100%' src="./images/dev.png"></img>
+</div
+
 # References
 
 [blog](https://medium.freecodecamp.org/reducing-css-bundle-size-70-by-cutting-the-class-names-and-using-scope-isolation-625440de600b)
