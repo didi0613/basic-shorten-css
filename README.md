@@ -31,6 +31,12 @@ However, to shrink the size under production env, we can renaming CSS class name
   <img style='width: 100%' src="./images/prod.png"></img>
 </div>
 
+## app demo
+
+<div style='float: center'>
+  <img style='width: 100%' src="./images/home.png"></img>
+</div>
+
 # References
 
 [blog](https://medium.freecodecamp.org/reducing-css-bundle-size-70-by-cutting-the-class-names-and-using-scope-isolation-625440de600b)
