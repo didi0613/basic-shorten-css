@@ -1,27 +1,44 @@
-# test-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> 
+# Enable shorten CSS class names for CSS Module
 
-## Installation
+This is a basic Electrode App for shorten css class names for css modules.
+Originally electrode app is using CSS module generates class names like this:
 
-```sh
-$ npm install --save test-app
+```
+{noformat}
+.skeleton__offset-by-four___1X84H.skeleton__columns___1A5LB
+{noformat}
 ```
 
-## Usage
+However, to shrink the size under production env, we can renaming CSS class names at the compilation time like:
 
-```js
-var testApp = require('test-app');
-
-testApp('Rainbow');
 ```
-## License
+{noformat}
+.___1X84H.___1A5LB
+{noformat}
+```
 
-Apache-2.0 © [Sheng Di]()
+# Css names
 
+## development env
 
-[npm-image]: https://badge.fury.io/js/test-app.svg
-[npm-url]: https://npmjs.org/package/test-app
-[travis-image]: https://travis-ci.org/didi0613/test-app.svg?branch=master
-[travis-url]: https://travis-ci.org/didi0613/test-app
-[daviddm-image]: https://david-dm.org/didi0613/test-app.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/didi0613/test-app
+<div style='float: center'>
+  <img style='width: 100%' src="./images/dev.png"></img>
+</div>
+
+## production env
+
+<div style='float: center'>
+  <img style='width: 100%' src="./images/prod.png"></img>
+</div>
+
+## app demo
+
+<div style='float: center'>
+  <img style='width: 100%' src="./images/home.png"></img>
+</div>
+
+# References
+
+[blog](https://medium.freecodecamp.org/reducing-css-bundle-size-70-by-cutting-the-class-names-and-using-scope-isolation-625440de600b)
+
+[electrode archetype changes](https://github.com/didi0613/electrode/tree/shorten-classnames-prod)
