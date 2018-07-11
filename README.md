@@ -1,27 +1,18 @@
-# test-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> 
+# Enable shorten CSS class names for CSS Module
 
-## Installation
-
-```sh
-$ npm install --save test-app
+This is a basic Electrode App for shorten css class names for css modules.
+Originally electrode app is using CSS module generates class names like this:
+```
+{noformat}
+.skeleton__offset-by-four___1X84H.skeleton__columns___1A5LB
+{noformat}
 ```
 
-## Usage
 
-```js
-var testApp = require('test-app');
+However, to shrink the size under production env, we can renaming CSS class names at the compilation time like:
 
-testApp('Rainbow');
 ```
-## License
-
-Apache-2.0 © [Sheng Di]()
-
-
-[npm-image]: https://badge.fury.io/js/test-app.svg
-[npm-url]: https://npmjs.org/package/test-app
-[travis-image]: https://travis-ci.org/didi0613/test-app.svg?branch=master
-[travis-url]: https://travis-ci.org/didi0613/test-app
-[daviddm-image]: https://david-dm.org/didi0613/test-app.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/didi0613/test-app
+{noformat}
+.___1X84H.___1A5LB
+{noformat}
+```
