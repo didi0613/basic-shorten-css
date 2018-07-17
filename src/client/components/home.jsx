@@ -24,11 +24,11 @@ import "../styles/custom.scss";
 import electrodePng from "../images/electrode.png";
 
 export default () => (
-  <div className={"container"}>
+  <div styleName={"container"}>
     {/**/}
 
-    <section className={"header"}>
-      <h2 className={"title"}>
+    <section styleName={"header"}>
+      <h2>
         <span>Hello from </span>
         <a href="https://github.com/electrode-io">
           {"Electrode"}
@@ -37,15 +37,15 @@ export default () => (
       </h2>
     </section>
 
-    <div className={"docs-section"}>
+    <div styleName={"docs-section"}>
       <DemoStates />
     </div>
 
-    <div className={"docs-section"}>
+    <div styleName={"docs-section"}>
       <DemoPureStates />
     </div>
 
-    <div className={"docs-section"}>
+    <div styleName={"docs-section"}>
       <DemoButtons />
     </div>
   </div>
