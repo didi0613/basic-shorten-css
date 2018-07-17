@@ -14,14 +14,14 @@ const DemoPureStates = props => {
   return (
     <div>
       <h6 styleName="docs-header">Demo Managing States in Pure Functional Component</h6>
-      <label styleName="inline-text" onChange={() => dispatch(toggleCheck())} checked={checked}>
+      <label styleName="checkbox-label" onChange={() => dispatch(toggleCheck())} checked={checked}>
         <input type="checkbox" checked={checked} onChange={() => null} />
         <span> checkbox </span>
       </label>
-      <div styleName="inline-text check-text">{checked ? "checked" : "unchecked"}</div>
+      <div styleName="checkbox-label-width10rem">{checked ? "checked" : "unchecked"}</div>
       <div>
         <button onClick={() => dispatch(decNumber())}>&#8810;</button>
-        <div styleName="inline-text value-text">{value}</div>
+        <div styleName="checkbox-label-width6rem">{value}</div>
         <button onClick={() => dispatch(incNumber())}>&#8811;</button>
       </div>
     </div>
