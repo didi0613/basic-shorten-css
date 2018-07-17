@@ -15,20 +15,16 @@
  */
 
 import React from "react";
-import "../styles/normalize.css";
-import "../styles/raleway.css";
-import skeleton from "../styles/skeleton.css";
-import custom from "../styles/custom.css";
-import electrodePng from "../images/electrode.png";
+
 import DemoStates from "./demo-states";
 import DemoPureStates from "./demo-pure-states";
 import { DemoButtons } from "./demo-buttons";
-//
+
+import "../styles/custom.css";
+import electrodePng from "../images/electrode.png";
 
 export default () => (
   <div className={"container"}>
-    {/**/}
-
     <section className={"header"}>
       <h2 className={"title"}>
         <span>Hello from </span>

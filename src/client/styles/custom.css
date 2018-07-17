@@ -32,6 +32,11 @@
 .docs-example h6 {
   margin-bottom: 1rem;
 }
+.docs-example a,
+.docs-example button,
+.docs-example input {
+  margin-right: 1rem;
+}
 .heading-font-size {
   font-size: 1.2rem;
   color: #999;
@@ -66,15 +71,19 @@ img {
   text-align: center;
 }
 
-.inline-text {
+.checkbox-label {
   display: inline-block;
   text-align: center;
 }
 
-.check-text {
+.checkbox-label-width10rem {
   width: 10rem;
+  display: inline-block;
+  text-align: center;
 }
 
-.value-text {
+.checkbox-label-width6rem {
   width: 6rem;
+  display: inline-block;
+  text-align: center;
 }

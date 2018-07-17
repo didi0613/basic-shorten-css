@@ -1,6 +1,7 @@
 import React from "react";
-import skeleton from "../styles/skeleton.css";
-import custom from "../styles/custom.css";
+
+import "../styles/custom.css";
+import "../styles/milligram.css";
 
 /*
  * Demostrates a simple pure functional component
@@ -12,7 +13,7 @@ export const DemoButtons = () => (
       demo CSS modules with buttons from <a href="http://getskeleton.com/">skeleton</a>
     </h6>
     <div className={"docs-example"}>
-      <a className={skeleton.button} href="#">
+      <a className={"button"} href="#">
         Anchor button
       </a>
       <button>Button element</button>
