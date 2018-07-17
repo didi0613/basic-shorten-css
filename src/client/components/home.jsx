@@ -15,18 +15,17 @@
  */
 
 import React from "react";
-import "../styles/normalize.css";
-import "../styles/raleway.css";
-import skeleton from "../styles/skeleton.css";
-import custom from "../styles/custom.css";
-import electrodePng from "../images/electrode.png";
+
 import DemoStates from "./demo-states";
 import DemoPureStates from "./demo-pure-states";
 import { DemoButtons } from "./demo-buttons";
 
+import "../styles/custom.css";
+import electrodePng from "../images/electrode.png";
+
 export default () => (
-  <div styleName={"custom.container"}>
-    <section styleName={"custom.header"}>
+  <div styleName={"container"}>
+    <section styleName={"header"}>
       <h2>
         <span>Hello from </span>
         <a href="https://github.com/electrode-io">
@@ -36,15 +35,15 @@ export default () => (
       </h2>
     </section>
 
-    <div styleName={"custom.docs-section"}>
+    <div styleName={"docs-section"}>
       <DemoStates />
     </div>
 
-    <div styleName={"custom.docs-section"}>
+    <div styleName={"docs-section"}>
       <DemoPureStates />
     </div>
 
-    <div styleName={"custom.docs-section"}>
+    <div styleName={"docs-section"}>
       <DemoButtons />
     </div>
   </div>
