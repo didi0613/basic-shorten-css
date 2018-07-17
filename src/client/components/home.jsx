@@ -24,8 +24,8 @@ import "../styles/custom.styl";
 import electrodePng from "../images/electrode.png";
 
 export default () => (
-  <div className={"container"}>
-    <section className={"header"}>
+  <div styleName={"container"}>
+    <section styleName={"header"}>
       <h2>
         <span>Hello from </span>
         <a href="https://github.com/electrode-io">
@@ -35,15 +35,15 @@ export default () => (
       </h2>
     </section>
 
-    <div className={"docs-section"}>
+    <div styleName={"docs-section"}>
       <DemoStates />
     </div>
 
-    <div className={"docs-section"}>
+    <div styleName={"docs-section"}>
       <DemoPureStates />
     </div>
 
-    <div className={"docs-section"}>
+    <div styleName={"docs-section"}>
       <DemoButtons />
     </div>
   </div>
