@@ -15,15 +15,13 @@
  */
 
 import React from "react";
-import "../styles/normalize.scss";
-import "../styles/raleway.scss";
-import skeleton from "../styles/skeleton.scss";
-import custom from "../styles/custom.scss";
-import electrodePng from "../images/electrode.png";
+
 import DemoStates from "./demo-states";
 import DemoPureStates from "./demo-pure-states";
 import { DemoButtons } from "./demo-buttons";
-//
+
+import "../styles/custom.scss";
+import electrodePng from "../images/electrode.png";
 
 export default () => (
   <div className={"container"}>

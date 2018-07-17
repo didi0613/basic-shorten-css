@@ -7,7 +7,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { toggleCheck, incNumber, decNumber } from "../actions";
-import custom from "../styles/custom.scss";
+import "../styles/custom.scss";
 
 const DemoPureStates = props => {
   const { checked, value, dispatch } = props;
@@ -15,19 +15,17 @@ const DemoPureStates = props => {
     <div>
       <h6 className={"docs-header"}>Demo Managing States in Pure Functional Component</h6>
       <label
-        style={{ display: "inline-block", textAlign: "center" }}
+        className={"checkbox-label"}
         onChange={() => dispatch(toggleCheck())}
         checked={checked}
       >
         <input type="checkbox" checked={checked} onChange={() => null} />
         <span className={"label-body"}> checkbox </span>
       </label>
-      <div style={{ width: "10rem", display: "inline-block", textAlign: "center" }}>
-        {checked ? "checked" : "unchecked"}
-      </div>
+      <div className={"checkbox-label-width10rem"}>{checked ? "checked" : "unchecked"}</div>
       <div>
         <button onClick={() => dispatch(decNumber())}>&#8810;</button>
-        <div style={{ width: "6rem", display: "inline-block", textAlign: "center" }}>{value}</div>
+        <div className={"checkbox-label-width6rem"}>{value}</div>
         <button onClick={() => dispatch(incNumber())}>&#8811;</button>
       </div>
     </div>

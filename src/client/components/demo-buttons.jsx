@@ -1,6 +1,6 @@
 import React from "react";
-import skeleton from "../styles/skeleton.scss";
-import custom from "../styles/custom.scss";
+import "../styles/milligram.scss";
+import "../styles/custom.scss";
 
 /*
  * Demostrates a simple pure functional component
@@ -12,7 +12,7 @@ export const DemoButtons = () => (
       demo CSS modules with buttons from <a href="http://getskeleton.com/">skeleton</a>
     </h6>
     <div className={"docs-example"}>
-      <a className={skeleton.button} href="#">
+      <a className={"button"} href="#">
         Anchor button
       </a>
       <button>Button element</button>
@@ -20,12 +20,12 @@ export const DemoButtons = () => (
       <input type="button" value="button input" />
     </div>
     <div className={"docs-example"}>
-      <a className={"button button-primary"} href="#">
+      <a className={"button button-outline"} href="#">
         Anchor button
       </a>
-      <button className={"button-primary"}>Button element</button>
-      <input className={"button-primary"} type="submit" value="submit input" />
-      <input className={"button-primary"} type="button" value="button input" />
+      <button className={"button-outline"}>Button element</button>
+      <input className={"button-outline"} type="submit" value="submit input" />
+      <input className={"button-outline"} type="button" value="button input" />
     </div>
   </div>
 );

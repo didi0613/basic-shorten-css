@@ -1,5 +1,7 @@
 # Enable shorten CSS class names for CSS Module
 
+> Note: electrode application pure scss
+
 This is a basic Electrode App for shorten css class names for css modules.
 Originally electrode app is using CSS module generates class names like this:
 
